@@ -35,13 +35,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/etUsername"
+        android:id="@+id/etLogin"
         android:layout_width="319dp"
         android:layout_height="44dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="152dp"
         android:ems="10"
-        android:hint="Username"
+        android:hint="Login"
         android:inputType="textPersonName"
         app:layout_constraintHorizontal_bias="0.578"
         app:layout_constraintLeft_toLeftOf="parent"
