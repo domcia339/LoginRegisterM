@@ -20,4 +20,10 @@ public class RegisterActivity extends AppCompatActivity {
 
         final Button bRegister= (Button) findViewById(R.id.bRegister);
     }
+
+    private void TestAppLoad(){
+        int i =1+1;
+        int ii=2+2;
+        int iiii=i+ii;
+    }
 }
