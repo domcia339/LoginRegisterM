@@ -61,7 +61,7 @@ public class LoginActivity extends AppCompatActivity {
                                 String name= jsonResponse.getString("name");
                                 String surname=jsonResponse.getString("surname");
 
-                                Intent intent= new Intent(LoginActivity.this, UserAreaActivity.class);
+                                Intent intent= new Intent(LoginActivity.this, TabbedUser.class);
                                 intent.putExtra("name", name);
                                 intent.putExtra("surname",surname);
                                 intent.putExtra("login", login);
